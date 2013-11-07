@@ -1,14 +1,14 @@
 # clojure-dreamhost-dns
 
-A Clojure library designed to ... well, that part is up to you.
+A Clojure library designed for accessing Dreamhost's DNS API.
 
 ## Usage
 
-FIXME
+Listing DNS records
+`(dns-list-records "MY_API_KEY")`
 
-## License
+Adding a DNS record
+`(dns-add-record "MY_API_KEY" "A" "test.example.com" "127.0.0.1" "added via api")`
 
-Copyright © 2013 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Removing a DNS record
+`(dns-remove-record "MY_API_KEY" "A" "test.example.com" "127.0.0.1")`
