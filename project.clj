@@ -1,4 +1,4 @@
-(defproject dreamhost-dns "0.1.0"
+(defproject dreamhost-dns "0.1.1"
   :description "Clojure library for accessing Dreamhost's DNS API"
   :url "http://github.com/nsantorello/clojure-dreamhost-dns"
   :dependencies [[org.clojure/clojure "1.5.1"]
