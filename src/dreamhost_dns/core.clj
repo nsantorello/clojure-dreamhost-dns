@@ -1,4 +1,4 @@
-(ns clojure-dreamhost-dns.core
+(ns dreamhost-dns.core
 	(require 
 		[clojure.data.json :as json]
 		[org.httpkit.client :as http]))
